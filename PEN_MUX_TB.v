@@ -1,8 +1,8 @@
-module fmys_4x2msbpe_tb;
+module pen_mux_tb;
     reg f,m,y,s;
     wire y1,y0;
 
-    fmys_4x2msbpe BHALLA (y1,y0,f,m,y,s);
+    pen_mux BHALLA (y1,y0,f,m,y,s);
 
 
     initial begin
