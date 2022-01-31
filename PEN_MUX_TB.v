@@ -2,7 +2,7 @@ module pen_mux_tb;
     reg f,m,y,s;
     wire y1,y0;
 
-    pen_mux BHALLA (y1,y0,f,m,y,s);
+    pen_mux DUT (y1,y0,f,m,y,s);
 
 
     initial begin
